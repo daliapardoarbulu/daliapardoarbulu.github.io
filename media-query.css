@@ -1,0 +1,589 @@
+/*MEDIAS-QUERIES*/
+
+
+@media screen and (min-width:400px) {
+    .apropos_fond:before {
+        left: 33vw;
+    }
+
+}
+
+
+
+@media screen and (min-width:500px) {}
+
+@media screen and (min-width:600px) {
+
+    .info-titre {
+        width: 260px;
+    }
+
+    .petit-titre,
+    .info-titre {
+        margin: 0px 91px 0 130px;
+    }
+
+    .banniere__fond div h1 {
+        margin: 0px 91px 0 130px;
+
+    }
+
+
+    header .contenair_social .social {
+        flex-direction: column;
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        align-items: flex-end;
+        margin-top: -27rem;
+    }
+
+
+    .contacteznous_elements {
+        display: flex;
+        flex-direction: column;
+        margin-left: 32rem;
+        width: 462px;
+        margin: 0 auto;
+
+    }
+
+
+    .logo--banniere {
+        width: 50%;
+    }
+
+
+    .daliaportrait {
+        width: 31vh;
+        margin: 0 auto;
+        display: block;
+
+
+    }
+
+    .apropos_description {
+        margin: 0 12vw;
+        margin-top: 50px;
+
+    }
+
+
+
+    .contacteznous_fond h3 {
+        width: 390px;
+    }
+
+
+    .portfolio_fond div h5 span {
+
+        margin-right: 10px;
+    }
+
+
+    .portfolio_top {
+        margin-top: -340px;
+    }
+
+
+    footer {
+        background-color: white;
+        width: 85%;
+        margin: auto;
+        height: 160px;
+    }
+
+
+}
+
+@media screen and (min-width:700px) {}
+
+
+
+
+@media screen and (min-width:800px) {
+
+
+    .btn_elements {
+        margin: auto;
+        justify-content: unset;
+        align-content: space-between;
+        justify-items: end;
+        display: flex;
+        margin-left: 20px;
+        flex-direction: column;
+    }
+
+    .titre2 {
+        font-size: 2.4rem;
+    }
+
+
+    .apropos_fond:before {
+        height: 0;
+        width: 0;
+    }
+
+
+
+    header .contenair_social .social {
+        flex-direction: column;
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        align-items: flex-end;
+        margin-top: 300px;
+        right: -37px;
+        position: absolute;
+        background-color: white;
+        height: 291px;
+        width: 60px;
+    }
+
+
+
+
+
+    .contacteznous_fond:before {
+        -webkit-transform: skew(0, 6deg);
+        transform: skew(0, 6deg);
+    }
+
+    .banniere_description {
+        height: 250px;
+        width: 34vw;
+        margin-top: 170px;
+
+    }
+
+    .contacteznous_fond h2 {
+
+        width: 300px;
+    }
+
+
+    .portfolio_fond h2 {
+        width: auto;
+        margin-top: 75px;
+        padding-bottom: 80px;
+    }
+
+
+
+    .titre-rotation {
+        -moz-transform: rotate(270deg);
+        -webkit-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        transform: rotate(270deg);
+
+    }
+
+
+
+    .apropos_fond h2 {
+        top: 0;
+        margin: 0;
+        margin-left: -9px;
+        width: 83px;
+    }
+
+    .apropos_fond .btn {
+        margin-left: 0px;
+    }
+
+
+
+
+
+
+    .petit-titre,
+    .info-titre {
+        margin: 0px 91px 0 70px;
+    }
+
+    .banniere__fond div h1 {
+        margin: 0px 91px 0 70px;
+        padding-top: 0px;
+    }
+
+    .banniere__fond {
+        flex-direction: row;
+        -ms-flex-direction: row;
+        -webkit-flex-direction: row;
+        background-color: transparent;
+        justify-content: space-around;
+        padding-bottom: 70px;
+    }
+
+
+
+    .banniere__fond:before {
+        -webkit-clip-path: polygon(296% 179%, 23% 15%, 87% 100%, 50% 86%);
+        clip-path: polygon(296% 179%, 23% 15%, 87% 100%, 50% 86%);
+        -webkit-transform: skew(0deg);
+        transform: skew(0deg);
+        margin-top: 0px;
+
+    }
+
+    .logo--banniere {
+        width: 42%;
+        margin: 80px 5%;
+    }
+
+    .apropos-center {
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        flex-flow: row-reverse;
+        margin: 0 4rem;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+
+    .daliaportrait {
+        margin: 0 2%;
+        display: block;
+        width: 300px;
+        height: 440px;
+        padding-top: 4%;
+
+    }
+
+    .apropos_description {
+        margin: auto 23px;
+        margin-top: 50px;
+
+    }
+
+    h2 {
+        margin-left: -257px;
+        margin: auto;
+
+    }
+
+    .scroll_image {
+        padding-top: 5px;
+    }
+
+    .contacteznous_fond {
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (min-width:850px) {
+
+
+    .contacteznous_elements {
+        margin-right: 100px;
+    }
+
+    .contacteznous_fond {
+
+        justify-content: center;
+
+    }
+
+}
+
+@media screen and (min-width:950px) {
+
+    .portfolio_fond {
+        padding-bottom: 300px;
+    }
+
+}
+
+
+
+@media screen and (min-width:1000px) {
+
+    .apropos_fond:before {
+        left: 56vw;
+        top: 177px;
+    }
+
+
+    header .contenair_social .social {
+        margin-top: 320px;
+        right: -5px;
+    }
+
+
+
+    .apropos_description {
+        margin: 0 20px;
+        margin-top: 50px;
+        padding-right: 50px;
+        width: 370px;
+    }
+
+
+
+
+
+
+    .contacteznous_fond:before {
+        -webkit-transform: skew(0, 5deg);
+        transform: skew(0, 5deg);
+    }
+
+    footer ul li img {
+        height: 40px;
+        width: 50px;
+    }
+
+    .banniere__fond {
+        margin-bottom: 60px;
+        padding-bottom: 0px;
+    }
+
+    .contacteznous_fond {
+        margin-bottom: -291px;
+    }
+
+    .contacteznous_fond button {
+        display: inline;
+    }
+
+
+
+    footer {
+        padding-top: 340px;
+        height: 410px;
+    }
+
+    .logo--banniere {
+        width: 290px;
+        margin: 150px 5%;
+    }
+
+    .banniere__fond div h1 {
+        font-size: 7rem;
+        width: 400px;
+    }
+
+    .contacteznous_fond button {
+        padding: 14px 29px;
+        margin-left: 14px;
+    }
+
+    .menu {
+        transform: none;
+        right: 0;
+        opacity: 1;
+        background: transparent;
+        display: flex;
+        align-self: center;
+        top: 0pc;
+
+
+    }
+
+    .menu:before {
+        background: transparent;
+    }
+
+    .trigger {
+        display: none;
+    }
+
+    .menu-center {
+        margin-top: 0;
+        text-align: center;
+        display: flex;
+        right: 0;
+        margin: auto;
+        list-style: none;
+    }
+
+    .menu-center li {
+        margin: 40px;
+    }
+
+    .menu-center li a {
+        font-weight: 400;
+        color: #303757;
+    }
+
+    .contenaire_nav {
+        align-items: stretch;
+    }
+
+}
+
+@media screen and (min-width:1400px) {
+
+    .apropos_fond:before {
+        left: 45vw;
+        top: 126px;
+        height: 50vh;
+        width: 50vh;
+
+    }
+
+
+    .apropos_fond {
+        align-items: center;
+    }
+
+
+    header .contenair_social .social {
+        margin-top: 33%;
+        right: 0px;
+        height: 251px;
+    }
+
+
+
+    .apropos_fond .btn {
+        margin-left: 0px;
+    }
+
+    .apropos_fond {
+        padding-top: 100px;
+    }
+
+    .apropos_fond h2 {
+        position: relative;
+        left: -41%;
+        margin: 0 38%;
+    }
+
+    .logo--banniere {
+        width: 25%;
+        margin: 200px 5%;
+    }
+
+
+    .apropos-center {
+        flex-flow: row-reverse;
+    }
+
+
+    .contacteznous_fond .btn:first-child {
+        margin-left: 20px;
+    }
+
+    .contacteznous_fond .btn:last-child {
+        margin-left: 10px;
+    }
+
+    .btn_elements {
+        justify-content: unset;
+        align-content: space-between;
+        justify-items: end;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-left: 0;
+    }
+
+
+    .contacteznous_fond {
+        padding-top: 9%;
+    }
+
+    .apropos_description {
+        margin: auto 40px;
+        margin-left: 0%;
+        padding-right: 50px;
+        width: 370px;
+        margin-top: 220px;
+    }
+
+
+
+
+    .portfolio_image {
+        margin: 0 4rem;
+    }
+
+
+
+    .portfolio_fond {
+        align-items: center;
+    }
+
+
+
+    .daliaportrait {
+        margin-top: 0;
+        width: 420px;
+        height: 670px;
+        padding-top: 9%;
+
+    }
+
+    .banniere__fond div h1 {
+        font-size: 7rem;
+
+    }
+
+    .portfolio_description {
+
+
+        margin-left: 90px;
+        margin-right: 30%;
+        align-self: center;
+    }
+
+    .portfolio_fond h3 {
+        padding-top: 0px;
+        font-size: 1.5rem;
+    }
+
+    .titre2 {
+        font-size: 2.8rem;
+    }
+
+
+}
+
+
+
+@media screen and (min-width:1550px) {
+
+
+
+    header .contenair_social .social {
+        margin-top: 29%;
+        height: 365px;
+        right: 0px;
+
+    }
+
+}
+
+
+
+@media screen and (min-width:1912px) {
+    .logo {
+        margin-left: 182px;
+    }
+
+    .menu {
+        margin-right: 16vh;
+    }
+
+    .contacteznous_elements {
+        margin-left: 52rem;
+    }
+
+    .fond {
+        width: 1520px;
+    }
+
+    footer {
+        width: 1520px;
+    }
+
+    .apropos_fond:before {
+        left: 16vw;
+        top: 126px;
+        height: 74vh;
+        width: 57vh;
+        background-color: #fbfafa;
+    }
+}
