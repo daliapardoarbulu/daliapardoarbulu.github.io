@@ -27,7 +27,7 @@ a {
 }
 
 h1 {
-    color: #9aa6d1;
+    color: #40485d;
 }
 
 h2 {
@@ -37,12 +37,12 @@ h2 {
 
 p,
 h3 {
-    color: #303758;
+    color: #16171d;
 }
 
 h1 {
     font-weight: lighter;
-    font-size: 4rem;
+    font-size: 6rem;
     text-transform: uppercase;
     width: 250px;
 }
@@ -51,7 +51,7 @@ h2 {
     margin: auto;
     text-transform: uppercase;
     /* font-family: 'Roboto', sans-serif; */
-    font-weight: 900;
+    font-weight: 400;
     font-size: 4rem;
     text-shadow: 3px 40px 20px #c2d2e9;
     text-align: center;
@@ -62,7 +62,7 @@ h5 {
 }
 
 p {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.6rem;
     line-height: 1.79;
     font-family: 'Roboto', sans-serif;
@@ -144,7 +144,7 @@ p {
     position: fixed;
     transform: translateX(-100%);
     right: -100%;
-    background: rgba(0, 0, 0, .95);
+    background: rgb(0 0 0 / 99%);
     z-index: 12;
     opacity: 0;
     /* transition: transform.3s ease-out, opacity .6s ease-in-out; */
@@ -249,7 +249,7 @@ a {
 .menu--open ul li a {
     margin: 25px 0;
     font-size: 3rem;
-    font-family: 'Roboto';
+    font-family: 'Quicksand';
     font-weight: normal;
     list-style: none;
 }
@@ -481,7 +481,7 @@ header .contenair_social .social {
     -webkit-flex-direction: column;
     flex-direction: column;
     justify-content: center;
-    padding: 170px 0;
+    padding: 51px 0;
     position: relative;
     align-items: stretch;
     margin-bottom: 60px;
@@ -572,8 +572,9 @@ header .contenair_social .social {
 }
 
 .portfolio_fond div h5 {
-    color: #b9c8e0;
+    color: #142346;
     font-size: 4.5rem;
+    font-weight: lighter;
     display: flex;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -681,23 +682,23 @@ header .contenair_social .social {
 .btn {
     border: 0;
     text-align: center;
-    -webkit-border-radius: 20px;
+    /* -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
-    border-radius: 20px;
-    padding: 16px 28px;
+    border-radius: 20px; */
+    padding: 16px 24px;
     margin: auto;
     margin-top: 20px;
     display: flex;
     display: -ms-flexbox;
     display: -webkit-flex;
     align-content: center;
-    width: 211px;
+    width: 170px;
 
 }
 
 .btn a {
-    font-size: 2.1rem;
-    font-weight: 100;
+    font-size: 1.7rem;
+    font-weight: 400;
     font-family: 'Quicksand', sans-serif;
 }
 
