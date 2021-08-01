@@ -10,7 +10,12 @@
 
 
 
-@media screen and (min-width:500px) {}
+@media screen and (min-width:500px) {
+
+    .contacteznous_texte {
+        margin: 0px 100px;
+    }
+}
 
 @media screen and (min-width:600px) {
 
@@ -37,6 +42,8 @@
         margin-top: -27rem;
     }
 
+
+  
 
     .contacteznous_elements {
         display: flex;
@@ -95,13 +102,7 @@
 
 }
 
-@media screen and (min-width:700px) {}
-
-
-
-
-@media screen and (min-width:800px) {
-
+@media screen and (min-width:700px) {
 
     .btn_elements {
         margin: auto;
@@ -109,9 +110,35 @@
         align-content: space-between;
         justify-items: end;
         display: flex;
-        margin-left: 20px;
-        flex-direction: column;
+        flex-direction: row-reverse;
     }
+
+    .contacteznous_elements .btn_elements{
+        margin-left: auto;
+   }
+   .contacteznous_fond .btn:first-child {
+       margin-left: 20px;
+   }
+
+}
+
+
+
+
+@media screen and (min-width:800px) {
+
+
+    .contacteznous_elements .btn_elements{
+        margin-left: 20px;
+   }
+
+    .contacteznous_texte {
+        margin: 0 20px;
+    }
+
+   
+
+
 
     .titre2 {
         font-size: 2.4rem;
@@ -291,7 +318,8 @@
 @media screen and (min-width:950px) {
 
     .portfolio_fond {
-        padding-bottom: 300px;
+        padding-bottom: 190px;
+        height: 980px;
     }
 
 }
@@ -390,6 +418,9 @@
         display: none;
     }
 
+
+   
+
     .menu-center {
         margin-top: 0;
         text-align: center;
@@ -468,7 +499,7 @@
     }
 
     .contacteznous_fond .btn:last-child {
-        margin-left: 10px;
+        margin-left: 0;
     }
 
     .btn_elements {
@@ -580,10 +611,10 @@
     }
 
     .apropos_fond:before {
-        left: 16vw;
-        top: 126px;
-        height: 74vh;
-        width: 57vh;
+        left: 296px;
+        top: 120px;
+        height: 694px;
+        width: 520px;
         background-color: #fbfafa;
     }
 }
