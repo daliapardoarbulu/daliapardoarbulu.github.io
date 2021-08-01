@@ -260,6 +260,13 @@ a {
     margin-right: 47px;
 }
 
+.menu-center a:hover {
+    color: #4da3f3;
+    font-weight: bolder;
+  }
+
+
+
 /* Rotate first bar */
 .menu--open .ligne1 {
     -webkit-transform: rotate(-45deg) translate(-3px, 1px);
@@ -632,6 +639,9 @@ header .contenair_social .social {
 
 /*SECTION-contactez-nous*/
 
+
+
+
 .contacteznous_texte {
     margin: 0 20px;
 
@@ -719,6 +729,22 @@ header .contenair_social .social {
 
 .btn__cv {
     color: #fff;
+}
+.btn__cv::after{
+    content: "";
+    background: url(assets/images/svg/iconmonstr-cv-4.svg) no-repeat;
+    height: 26px;
+    width: 33px;
+    margin-top: -2px;
+    margin-left: 5px;
+    position: absolute;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center;
+    fill:red;
+    
 }
 
 
