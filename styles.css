@@ -690,7 +690,7 @@ header .contenair_social .social {
 /*BOUTONS*/
 
 .btn {
-    border: 0;
+    border: 1px solid #4da3f3;
     text-align: center;
     /* -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
