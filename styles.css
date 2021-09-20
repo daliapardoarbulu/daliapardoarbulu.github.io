@@ -50,11 +50,11 @@ h1 {
 h2 {
     margin: auto;
     text-transform: uppercase;
-    /* font-family: 'Roboto', sans-serif; */
     font-weight: 400;
     font-size: 4rem;
     text-shadow: 3px 40px 20px #c2d2e9;
-    text-align: center;
+    text-align: left;
+
 }
 
 h5 {
@@ -151,7 +151,6 @@ p {
     will-change: transform, opacity;
 }
 
-
 .menu:before {
     content: "";
     position: fixed;
@@ -163,15 +162,12 @@ p {
     -o-background-size: cover;
     background-size: cover;
     opacity: 0.5;
-
 }
 
 div .menu ul li a {
     margin-top: 90px;
     text-decoration: none;
     font-size: 2rem;
-
-
 }
 
 div .menu ul li {
@@ -186,7 +182,6 @@ div .menu ul li {
     left: 100%;
     transition: all .3s;
     top: 0vh;
-
 }
 
 a {
@@ -194,7 +189,6 @@ a {
     display: block;
     font-size: 1.8rem;
 }
-
 
 .trigger li {
     overflow: hidden;
@@ -211,7 +205,6 @@ a {
     -webkit-flex-direction: column;
     align-items: flex-end;
     margin: 48px 36px;
-
 }
 
 .trigger {
@@ -222,14 +215,11 @@ a {
     width: 100%;
 }
 
-
 .ligne1 {
-
     width: 31px;
 }
 
 .ligne2 {
-
     width: 21px;
     margin-top: 8px;
 }
@@ -298,10 +288,8 @@ a {
 /*LAYOUT*/
 
 .container {
-
     height: auto;
 }
-
 
 
 
@@ -315,7 +303,7 @@ a {
     color: #535c68;
     width: 4.3rem;
     height: 4.3rem;   
-    transition: .5s linear;
+    transition: .1s linear;
     position: relative;
     z-index: 1;
     margin: auto;
@@ -343,7 +331,7 @@ a {
     border-radius: 50%;
     z-index: -1;
     transform: scale(0);
-    transition: 0.3s cubic-bezier(.95, .32, .37, 1.21);
+    transition: 0.1s cubic-bezier(.95, .32, .37, 1.21);
    
   }
     
@@ -390,7 +378,6 @@ a {
 }
 
 
-
 .contenair_social li {
     display: flex;
     display: -ms-flexbox;
@@ -414,7 +401,6 @@ a {
     flex-direction: column;
     justify-content: center;
     position: relative;
-    /* align-items: center; */
     margin-bottom: 40px;
     margin-top: 6vh;
     background-color: white;
@@ -466,11 +452,6 @@ header .contenair_social .social {
 }
 
 
-
-
-
-
-
 .scroll_image {
     text-align: center;
     font-weight: 700;
@@ -507,6 +488,7 @@ header .contenair_social .social {
 .apropos_fond h2 {
     top: 0;
     padding-bottom: 40px;
+    margin-left: -10px;
 }
 
 
@@ -518,7 +500,7 @@ header .contenair_social .social {
     -webkit-flex-direction: column;
     flex-direction: column;
     justify-content: center;
-    padding: 51px 0;
+    padding: 120px 0;
     position: relative;
     align-items: stretch;
     margin-bottom: 60px;
@@ -537,13 +519,11 @@ header .contenair_social .social {
     left: 26vw;
     top: 186px;
     background-color: #eef3f7;
-
-
 }
 
 .apropos_description {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 9vw;
+    margin-right: 9vw;
     margin-top: 50px;
 }
 
@@ -555,8 +535,6 @@ header .contenair_social .social {
 .apropos_description p {
     padding-bottom: 20px;
 }
-
-
 
 
 
@@ -662,24 +640,14 @@ header .contenair_social .social {
 
 }
 
-
-
-
-
-
 /*SECTION-contactez-nous*/
 
 
 
-
-.contacteznous_texte {
-    margin: 0 20px;
-
-}
-
 .contacteznous_fond h2 {
     padding-bottom: 0px;
     font-size: 3.5rem;
+    margin-left: -10px;
 }
 
 .contacteznous_fond h3 {
@@ -700,7 +668,6 @@ header .contenair_social .social {
     justify-content: flex-end;
     padding: 100px 0;
     position: relative;
-    align-items: center;
 }
 
 .contacteznous_fond:before {
@@ -722,11 +689,7 @@ header .contenair_social .social {
 .btn {
     border: 1px solid #4da3f3;
     text-align: center;
-    /* -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px; */
     padding: 2rem 2rem;
-    margin: auto;
     margin-top: 20px;
     display: flex;
     display: -ms-flexbox;
@@ -734,6 +697,7 @@ header .contenair_social .social {
     align-content: center;
     justify-content: space-evenly;
     width: 170px;
+    cursor: pointer;
 
 }
 
@@ -746,6 +710,12 @@ header .contenair_social .social {
 .btn:first-child {
     background-color: #fff;
     border: 1px solid #4da3f3;
+}
+
+
+.btn:last-child:hover {
+    background-color: #7dc0ff;
+    border: 1px solid #7dc0ff;
 }
 
 .btn:last-child {
@@ -791,7 +761,7 @@ header .contenair_social .social {
 
 .daliaportrait {
     width: 31vh;
-    height: 49vh;
+    height: 43vh;
     margin: 0 auto;
     position: relative;
     display: block;
@@ -799,9 +769,6 @@ header .contenair_social .social {
     padding-bottom: 20px;
     margin-top: 20px;
 }
-
-
-
 
 
 .portfolio_elements {
@@ -831,9 +798,6 @@ header .contenair_social .social {
     width: 85%;
     margin: auto;
 }
-
-
-
 
 
 
