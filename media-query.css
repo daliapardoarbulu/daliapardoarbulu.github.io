@@ -12,8 +12,13 @@
 
 @media screen and (min-width:500px) {
 
-    .contacteznous_texte {
-        margin: 0px 100px;
+ 
+  
+    
+
+    .apropos_description {
+        margin-left: 16vw;
+        margin-right: 16vw;
     }
 }
 
@@ -43,14 +48,12 @@
     }
 
 
-  
+
+
 
     .contacteznous_elements {
         display: flex;
         flex-direction: column;
-        margin-left: 32rem;
-        width: 462px;
-        margin: 0 auto;
 
     }
 
@@ -69,7 +72,8 @@
     }
 
     .apropos_description {
-        margin: 0 12vw;
+        margin-left: 17vw;
+        margin-right: 17vw;
         margin-top: 50px;
 
     }
@@ -110,7 +114,7 @@
         align-content: space-between;
         justify-items: end;
         display: flex;
-        flex-direction: row-reverse;
+  
     }
 
     .contacteznous_elements .btn_elements{
@@ -126,6 +130,10 @@
 
 
 @media screen and (min-width:800px) {
+
+    .btn_elements {
+        flex-direction: row-reverse;
+    }
 
 
     .contacteznous_elements .btn_elements{
@@ -273,7 +281,7 @@
         margin: 0 2%;
         display: block;
         width: 300px;
-        height: 440px;
+        height: 404px;
         padding-top: 4%;
 
     }
@@ -296,9 +304,38 @@
 
     .contacteznous_fond {
         flex-direction: row;
+        align-items: center;
     }
 
 }
+
+
+@media screen and (min-width: 0px) and (max-width: 499px) {
+    .contacteznous_fond {
+        margin-left: 9vw;
+        margin-right: 9vw;
+    }
+
+
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 699px) {
+    .contacteznous_fond {
+        margin-left: 17vw;
+        margin-right: 16vw;
+    }
+
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 799px) {
+    .contacteznous_fond {
+        margin-left: 17vw;
+        margin-right: 17vw;
+    }
+}
+
 
 @media screen and (min-width:850px) {
 
@@ -327,6 +364,11 @@
 
 
 @media screen and (min-width:1000px) {
+
+
+    .contacteznous_elements{
+        margin-left: 15%;
+    }
 
     .apropos_fond:before {
         left: 56vw;
@@ -456,6 +498,17 @@
 
 @media screen and (min-width:1400px) {
 
+    .contacteznous_elements p{
+        width: 390px;
+    }
+
+
+    .contacteznous_elements{
+        margin-left: 40%;
+    }
+
+
+
     .apropos_fond:before {
         left: 45vw;
         top: 126px;
@@ -551,7 +604,7 @@
     .daliaportrait {
         margin-top: 0;
         width: 420px;
-        height: 670px;
+        height: 566px;
         padding-top: 9%;
 
     }
