@@ -1,0 +1,286 @@
+/*MEDIAS-QUERIES*/
+
+@media screen and (min-width:321px){
+
+    .accordion {
+      padding-top: 501px;
+  }
+  
+  
+  
+    .contenaire:hover {
+      flex-basis: 14em;
+  
+    }
+    .form-horizontal{
+      width: 330px;
+    }
+
+  }
+  
+  @media screen and (min-width:359px){
+  
+    .contenaire:hover {
+      flex-basis: 12.5em;
+  }
+    .introduction h1{
+      width: 360px;
+    }
+  }
+  
+  
+  @media screen and (min-width:375px){
+    .contenaire img{
+      width: 100%;
+    }
+   
+  }
+  
+  @media screen and (min-width: 415px){
+    .rangees{
+  
+      width: 400px;
+    }
+  
+  
+  
+  
+  
+  }
+  @media screen and (min-width: 700px){
+    .introduction{
+      margin-top: 0;
+      margin-bottom: 0;
+      position: unset;
+      height: 241px;
+      width: 243px;
+      margin: 0 -2%;
+      margin-top: 30px;
+    
+    }
+    .introduction h1{
+      width: 190px;
+      line-height: 28px;
+      font-size: 23px;
+    }
+  
+  
+  
+
+    .introduction p{
+      width: 200px;
+    }
+  
+    .img--logoicon{
+      margin: 0px auto;
+      margin-bottom: 0;
+    }
+  
+  
+  
+  
+  
+    .footer__liens{
+      margin: 0 170px;
+    }
+    .accordion{
+      flex-direction: initial;
+      overflow: hidden;
+      margin: 0 10%;
+      padding-top: 115px;
+      margin: 0 0%;
+    
+    }
+    .contenaire{
+      margin: 1vmin;
+      height: 35vmin;
+      flex: 2;
+      height: 23pc;
+      flex-direction: row-reverse;
+      align-content: flex-end;
+      flex-wrap: wrap;
+    }
+  
+    .contenaire__titre{
+      font-size: 23px;
+    }
+
+  .contenaire__titre--fondnoire {
+    padding-right: 120px;
+  }
+  
+ 
+  
+  .contact__contenaire{
+    flex-direction: row-reverse;
+  }
+  
+  }
+  
+  
+  
+  @media screen and (min-width: 1058px){
+  
+    .menu{
+      font-size: 17px ;
+    }
+   
+  
+    .rangees__fondnoir {
+      height: 13.19pc;
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: space-around;
+      padding-left: 19px;
+     
+  
+    }
+    .carte-lien {
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      align-self: center;
+      align-items: center;
+  
+  }
+    .info--rangement {
+      display: flex;
+      width: 0;
+      justify-content: flex-start;
+      align-self: auto;
+      z-index: 1;
+      bottom: 0;
+  }
+  
+    .rangees {
+      width: 45pc;
+  
+  }
+  
+  
+    .accordion{
+      margin: 0 auto;
+      width: 1000px;
+    }
+    .contenaire{
+      height: 26pc;
+    }
+    .logo{
+      margin-left: 35px;
+    }
+  
+    .footer__liens {
+    
+      border-bottom: 0;
+      margin: 0;
+      margin-left: 10pc;
+    }
+    .footer__liens h3 {
+      font-size: 40px;
+    }
+  
+  
+    .footer__grandecrans{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+    }
+    .footer__grandecrans::before{
+      content: "";
+      border-right: black 1px solid;
+      position: absolute;
+      height: 177px;
+      width: 0;
+      bottom: 6pc;
+    }
+  
+    .footer__logo-slogan {
+      margin-right: 10pc;
+      padding-top: 21px;
+    }
+    .footer__credits {
+      height: 100px;
+      padding: 47px 20px;
+    }
+  
+    .limit{
+      margin: 0 auto;
+      display: block;
+  
+    
+    }
+  
+  
+    .anim__icon-menu {
+      display: none;
+      z-index: 0;
+      transition: all .4s;
+      background-color: black;
+      flex-direction: column;
+      align-items: center;
+      justify-content: unset;
+      width: 0;
+      border: none;
+  }
+  
+    .menu-icon {
+      height: 0;
+      width: 0;
+    }
+  
+    .menu a{
+      color: black;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .menu {
+      position: initial;
+      background: rgb(255, 255, 255);
+      opacity: 1;
+      transition: none;
+      will-change: transform, opacity;
+      transform: translateX(0%);
+      margin-left: 570px;
+      margin-top: -60px;
+      height: 68px;
+  }
+      
+  
+  
+    .menu:before{
+      position: initial;
+    }
+    .menu ul {
+      display: flex;
+      justify-content: flex-start;
+    }
+  
+    .menu li{
+      margin: 30px 40px;
+    }
+  
+    .titre1 {
+      font-size: 3em;
+  }
+    
+  .rangees img{
+    clip-path: none;
+    width: 25em;
+  }
+  .actualites{
+    margin-top: -70px;
+  }
+  
+  .logo {
+    height: 57px;
+    width: 142px;
+  }
+  
+  
+  }
+  
+  
+  
+  
