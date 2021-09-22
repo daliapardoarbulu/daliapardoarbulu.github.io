@@ -577,6 +577,7 @@ header .contenair_social .social {
 
 .portfolio_fond p {
     margin: 7px;
+    margin-top: -6px;
     font-size: 1.4rem;
 }
 
@@ -604,10 +605,10 @@ header .contenair_social .social {
 }
 
 .portfolio_fond h3 {
-    margin-top: 0px;
     font-size: 1.4rem;
     margin: 10px;
     line-height: 1.45;
+    margin-top: 16px;
 }
 
 
@@ -640,14 +641,14 @@ header .contenair_social .social {
 
 .btn-plus {
     border: solid 1px;
-    padding: 10px 10px;
-    margin-top: 3px;
-    margin-left: 19rem;
+    padding: 2rem 2rem;
+    margin-top: 23px;
+    margin-left: 10.5rem;
     height: auto;
     width: max-content;
     cursor: pointer;
     color: #4da3f3;
-    align-items: flex-end;
+    font-size: 17px;
 }
 
 /*SECTION-contactez-nous*/
