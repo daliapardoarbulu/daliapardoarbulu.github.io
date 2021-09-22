@@ -541,15 +541,13 @@ header .contenair_social .social {
 /*SECTION-portfolio*/
 
 .portfolio_image {
-    margin: auto;
+    margin: 14px;
     display: flex;
     display: -ms-flexbox;
     display: -webkit-flex;
     -ms-flex-direction: column;
     -webkit-flex-direction: column;
     flex-direction: column;
-
-
     margin-bottom: 30px;
 }
 
@@ -573,6 +571,7 @@ header .contenair_social .social {
     display: -ms-flexbox;
     display: -webkit-flex;
     flex-flow: unset;
+    flex-direction: column;
 
 }
 
@@ -637,7 +636,18 @@ header .contenair_social .social {
     left: 0;
     top: 0;
 
+}
 
+.btn-plus {
+    border: solid 1px;
+    padding: 10px 10px;
+    margin-top: 3px;
+    margin-left: 19rem;
+    height: auto;
+    width: max-content;
+    cursor: pointer;
+    color: #4da3f3;
+    align-items: flex-end;
 }
 
 /*SECTION-contactez-nous*/
