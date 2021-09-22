@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title> Simple Agency | agence de publicité | </title>
+
+    <!--link-css-->
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link rel="stylesheet" href="medias-query.css" media="screen">
+
+    <!--responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+</head>
+
+<body>
+    <nav class="barnavigation">
+        <div class="limit">
+            <div class="contenaire__nav">
+                <div>
+                    <!-- <h1>When fun is a part of life</h1> -->
+                   <a href="index.html" class="logo-link"> <img src="assets/images/svg/logo-B.svg" alt="pixel news" class="logo" /></a>
+                </div>
+                <div class="anim__icon-menu">
+                    <img src="assets/images/svg/iconmonstr-menu-1.svg" alt="menu" class="menu-icon" />
+                </div>
+            </div>
+
+
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#apropos">À propos</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#actu">Actualités</a></li>
+                    <li><a href="#contacteznous">Contact</a></li>
+                    <li><form id="content">
+                        <input type="text" name="input" class="input" id="search-input">
+                        <button type="reset" class="search" id="search-btn"></button>
+                    </form></li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <header id="up" class="headertop">
+        <div id="slider">
+            <input checked="" type="radio" name="slider" id="slide1">
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <input type="radio" name="slider" id="slide5">
+
+            <div id="slides">
+                <div id="overflow">
+                    <div class="inner">
+                        <div class="slide slide_1">
+                            <div class="slide-content">
+                                <h3>Nous créons ensemble, votre futur.</h3>
+                                <p>Grâce à une stratégie que nous concevons personnellement pour vous, nous vous offrons clarté et logique pour du succès garanti.</p>
+                                <a href="#contacteznous" class="btn-contact">Contactez-nous</a>
+                            </div>
+                        </div>
+                        <div class="slide slide_2">
+                            <div class="slide-content">
+                                <h3>Une équipe solidaire, qui bosse dure!</h3>
+                                <p>On est une team solidaire, qui bosse dure afin que vos projets se concrétisent</p>
+                                <a href="#apropos" class="btn-contact">Plus d'infos</a>
+                            </div>
+                        </div>
+                        <div class="slide slide_3">
+                            <div class="slide-content">
+                                <h3>Qu'est-ce qu'on fait pour le moment?</h3>
+                                <p>Jetez un coup d'oeil au projets qu'on bosse actuellement</p>
+                                <a href="#projets" class="btn-contact">Voir nos projets</a>
+                            </div>
+                        </div>
+                        <div class="slide slide_4">
+                            <div class="slide-content">
+                                <h3>Tenez vous au fil de l'actu</h3>
+                                <p>Nos articles pertinant vous permetent de vous améliorer et élargir vos connaissances</p>
+                                <a href="#actu" class="btn-contact">Voir nos articles</a>
+                            </div>
+                        </div>
+                        <div class="slide slide_5">
+                            <div class="slide-content">
+                                <h3>Quel CMS choisir pour votre E-commerce en 2019</h3>
+                                <p>La création d’un site E-commerce nécessite un plan d’action et une connaissance des besoins digitaux de votre entreprise ...</p>
+                                <a href="#actu" class="btn-contact">Voir nos articles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+                <label for="slide5"></label>
+            </div>
+
+            <div id="bullets">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+                <label for="slide5"></label>
+            </div>
+        </div>
+    </header>
+    <div class="section-up">
+
+        <a href="#up" class="up-page-link"></a>
+
+    </div>
+
+    <section class="qualities section--bgwhite section--color">
+        <div class="section__container-qualities">
+            <div class="title-center">
+                <h3 class="title2">créatif  et ingénieux</h3>
+                <h2 class="title">Nos qualités</h2>
+            </div>
+
+            <ol class="qualities-list">
+                <li class="qualities-list__el link-color--black">
+
+                    <h4 class="icon-market">Marketing de contenu</h4>
+                    <p>D'après la fameuse expression «Le contenu est roi», nous sommes intransigeants sur le marketing de contenu, nous sommes convaincus qu'elle est essentielle pour chaque entreprise, grande ou petite.</p>
+                    <a href="#" class="btn-lireplus">Lire plus </a>
+
+                </li>
+                <li class="qualities-list__el link-color--black">
+                    <div>
+                        <h4 class="icon-webdesign">(Web) Design</h4>
+                        <p>La conception du site web est fondamentale, c'est la fenêtre de votre entreprise qui s'ouvre au monde. Nous vous offrons une conception Web solide afin d'atteindre vos objectifs.</p>
+                        <a href="#" class="btn-lireplus">Lire plus </a>
+                    </div>
+                </li>
+                <li class="qualities-list__el link-color--black">
+                    <div>
+                        <h4 class="icon-goal">Publicité en ligne</h4>
+                        <p>Grâce à nous vous pourrez atteindre rapidement vos clients via différents canaux? Grâce à des canaux tels que Google Ads et Facebook, vous êtes visible par votre groupe cible en un rien de temps.</p>
+                        <a href="#" class="btn-lireplus">Lire plus </a>
+                    </div>
+                </li>
+                <li class="qualities-list__el link-color--black">
+                    <div>
+                        <h4 class="icon-gear">Support et maintenace</h4>
+                        <p>Une fois votre site en ligne, notre équipe vous accompagne au quotidien pour répondre à vos questions sur son utilisation. Nous mettons à jour votre site web pour qu'il reflète l’image au quotidien de votre entreprise</p>
+                        <a href="#" class="btn-lireplus">Lire plus </a>
+                    </div>
+                </li>
+            </ol>
+        </div>
+
+    </section>
+
+    <section class="aboutUs" id="apropos">
+        <ul class="aboutUs-list">
+            <li class="aboutUs-list__el picture-aboutUs ">
+            </li>
+            <li class="aboutUs-list__el">
+                <div class="section__container-aboutUs aboutUs-text">
+                    <h3 class="title2 fontcolor-white">Visibilité et fiabilité</h3>
+                    <h2 class="title title--white">Agence Web et communication digitale</h2>
+
+                    <p>On est une agence spécialisée dans le développement de solution web et dans l’élaboration destratégie de communication digitale complète. Nous réfléchissons, travaillons, mettons en œuvre et optimisons. Nous le faisons pour plus de 50 entreprises aux Pays-Bas, en Belgique, en Allemagne et en Espagne.</p>
+
+                </div>
+            </li>
+
+        </ul>
+    </section>
+
+    <section id="projets" class="portfolio section--bgwhite section--color">
+        <div class="section__container-boX">
+            <div class="title-center">
+                <h3 class="title2">Hier et aujourd’hui</h3>
+                <h2 class="title">Nos projets</h2>
+            </div>
+            <ul class="boX-list list-style-none link-color--black">
+                <li class="boX-list__el ">
+                        <ul class="list-style-none ">
+                            <li class="picture-boX picture-1"></li>
+                            <li class="boX-text boX-text__container">
+                                <h4 class="title3">Macarons &Co</h4>
+                                <p>Magasin de macarons située à Bruxelles</p>
+                                <a href="#">Voir le projet</a>
+                            </li>
+                        </ul>
+                    </li>
+               <li class="boX-list__el ">
+                    <ul class="list-style-none ">
+                        <li class="picture-boX picture-2"></li>
+                        <li class="boX-text boX-text__container">
+                            <h4 class="title3">Pro-tuning</h4>
+                            <p>Tuning et rénovation des voitures, située à Liège.</p>
+                            <a href="#">Voir le projet</a>
+                        </li>
+                    </ul>
+                </li>
+               <li class="boX-list__el ">
+                    <ul class="list-style-none ">
+                        <li class="picture-boX picture-3"></li>
+                        <li class="boX-text boX-text__container">
+                            <h4 class="title3">Travel Luxmer</h4>
+                            <p>Agence de voyages de croisières, située au Luxembourg.</p>
+                            <a href="#">Voir le projet</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <div class="parallax__section picture-parallax-1 parallax-scroll">
+
+        <div class="picture-parallax1 section__parallax"></div>
+
+    </div>
+
+    <section class="clients section--bgwhite section--color">
+        <div class="section__container-clients">
+            <div class="title-center">
+                <h3 class="title2">Performants et efficaces</h3>
+                <h2 class="title">Nos services</h2>
+            </div>
+            <ul class="clients-list list-style-none link-color--black">
+                <li class="clients-list__el">
+                    <div>
+                        <a href="#" class="link-clients-list__text">
+                            <div class="clients-list__text">
+                                <h4>Feed marketing</h4>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </li>
+                <li class="clients-list__el">
+                    <div>
+                        <a href="#" class="link-clients-list__text">
+                            <div class="clients-list__text">
+                                <h4>Web Development</h4>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </li>
+                <li class="clients-list__el">
+                    <div>
+                        <a href="#" class="link-clients-list__text">
+                            <div class="clients-list__text">
+                                <h4>Social media</h4>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </li>
+
+                <li class="clients-list__el">
+                    <div>
+                        <a href="#" class="link-clients-list__text">
+                            <div class="clients-list__text">
+                                <h4>Content Marketing</h4>
+                            </div>
+                        </a>
+
+                    </div>
+                </li>
+                <li class="clients-list__el">
+                    <div>
+                        <a href="#" class="link-clients-list__text">
+                            <div class="clients-list__text">
+                                <h4>Design</h4>
+                            </div>
+                        </a>
+
+
+                    </div>
+                </li>
+
+                <li class="clients-list__el">
+                    <div>
+                        <a href="#" class="link-clients-list__text">
+                            <div class="clients-list__text">
+                                <h4>Publicité en ligne</h4>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </li>
+                <li class="clients-list__el">
+                    <div>
+                        <a href="#" class="link-clients-list__text">
+                            <div class="clients-list__text">
+                                <h4>Data Analytics</h4>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </li>
+                <li class="clients-list__el">
+                    <div>
+                        <a href="#" class="link-clients-list__text">
+                            <div class="clients-list__text">
+                                <h4>Support & maintenace</h4>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+    </section>
+    <div class="parallax__section parallax-scroll picture-parallax-2">
+
+        <div class="picture-parallax1 section__parallax"></div>
+
+    </div>
+    <div class="labels__section section--bggrey">
+        <ul class="labels list-style-none">
+            <li class="labels-picture-1"></li>
+            <li class="labels-picture-2"></li>
+            <li class="labels-picture-3"></li>
+            <li class="labels-picture-4"></li>
+        </ul>
+    </div>
+    <section id="actu" class="news section--bgwhite section--color">
+        <div class="section__container-boX">
+            <div class="title-center">
+                <h3 class="title2">Claires et concrètes</h3>
+                <h2 class="title">Actualités</h2>
+            </div>
+            <ul class="boX-list list-style-none link-color--black">
+               <li class="boX-list__el ">
+                <a href="#" class="news__el">
+                    <ul class="list-style-none ">
+                        <li class="picture-boX news-picture-1"></li>
+                        <li class="boX-text boX-text__container">
+                            <h4 class="title3">Comment optimiser votre visibilité sur Facebook?</h4>
+                            <p>12 Novembre 2017</p>
+                         
+                        </li>
+                    </ul>
+                </a>
+                </li>
+                <li class="boX-list__el ">
+                    <a href="#" class="news__el">
+                    <ul class="list-style-none">
+                        <li class="picture-boX news-picture-2"></li>
+                        <li class="boX-text boX-text__container">
+                            <h4 class="title3">Les entreprises à l'air du digital</h4>
+                            <p>11 Novembre 2017</p>
+                         
+                        </li>
+                    </ul>
+                </a>
+                </li>
+                <li class="boX-list__el ">
+                    <a href="#" class="news__el">
+                    <ul class="list-style-none ">
+                        <li class="picture-boX news-picture-3"></li>
+                        <li class="boX-text boX-text__container">
+                            <h4 class="title3">Les tendances social media 2019</h4>
+                            <p>18 Mai 2019</p>
+                          
+                        </li>
+                    </ul>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="contacteznous" class="section--bgwhite section--color">
+        <div class="contact section__container-contact">
+            <div class="text-disposition">
+                <h3 class="title2 title-center">Nous sommes performants et efficaces</h3>
+                <h2 class="title title-center">Contactez Nous</h2>
+
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15098.38031565157!2d4.34567535629866!3d50.84524355331722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c48149a75883%3A0x33668b0b929c7a3d!2sPalais%20de%20Bruxelles!5e0!3m2!1sfr!2sus!4v1578312389818!5m2!1sfr!2sus" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+
+
+            </div>
+            
+            <div class="contact__contenaire">
+                
+
+                <form class="form-horizontal"  method="post" action="contact.php">
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="name" placeholder="Nom (obligatoire)"
+                                name="name" value="">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="email" class="form-control" id="email" placeholder="Email (obligatoire)"
+                                name="email" value="">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="tel" class="form-control" id="phone" placeholder="Téléphone" name="phone"
+                                value="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="subjet" placeholder="Sujet" name="your-subject"
+                                value="">
+                        </div>
+                    </div>
+                    <textarea class="form-control" rows="10" placeholder="Message" name="message"></textarea>
+
+
+                    <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                        <span class="button">
+                            <i class="fa fa-paper-plane"></i><span class="send-text">Envoyer</span>
+                        </span>
+                    </button>
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <div class="section--bggrey footer">
+            <div class="logo-links-section">
+                <div class="logo-section">
+                    <img src="assets/images/svg/logo-B.svg" alt="" class="logo">
+                    <small>"La simplicité est la sophistication ultime" </small>
+                    <p class="name">Par Da Vinci</p>
+                </div>
+                <div class="links-section">
+                    <a href="https://twitter.com" title="Nous suivre sur Twitter" target="_blank"><img
+                            src="assets/images/svg/iconmonstr-facebook-4.svg" alt="twitter" class="img" /></a>
+                    <a href="https://twitter.com" title="Nous suivre sur Twitter" target="_blank"><img
+                            src="assets/images/svg/iconmonstr-twitter-4.svg" alt="twitter" class="img" /></a>
+                    <a href="https://twitter.com" title="Nous suivre sur Twitter" target="_blank"><img
+                            src="assets/images/svg/iconmonstr-linkedin-4.svg" alt="twitter" class="img" /></a>
+                    <a href="https://twitter.com" title="Nous suivre sur Twitter" target="_blank"><img
+                            src="assets/images/svg/iconmonstr-youtube-9.svg" alt="twitter" class="img" /></a>
+                </div>
+            </div>
+            <div class="importantLinks-section">
+                <h5>Liens importants</h5>
+                <a href="#contacteznous">Contact</a>
+                <a href="#apropos" >À propos</a>
+                <a href="#actu" >Actualités</a>
+                <a href="#actu" >Projets</a>
+            </div>
+
+            <div class="contactus-section">
+                <h5>Contact us</h5>
+                <a>Paul Malustraat 25-1 1560 Hoeilaart, Bruxelles</a>
+                <a>Phone: (+68) 120034509</a>
+                <a>Email: Comenadmin@gmail.com</a>
+                <a>Fax: +1-23-456789</a>
+            </div>
+        </div>
+        <div class="footer__section--credit">
+            <div>
+                <p>Dalia Pardo 2018. All Rights Reserved.</p>
+            </div>
+            <div class="links-credit">
+                <a href="#">Privacy</a>
+                <a href="#">Policy</a>
+                <a href="#">FAQ</a>
+                <a href="#">Contact us</a>
+            </div>
+
+        </div>
+
+
+
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="script-search.js"></script>
+
+</body>
+
+</html>

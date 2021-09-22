@@ -1,0 +1,307 @@
+/*MEDIAS-QUERIES*/
+
+@media screen and (min-width:359px){
+    /*HEADER*/
+    #slides .inner {
+        height: 32.8em;
+    }
+
+
+   
+}
+@media screen and (min-width:374px){
+    /*HEADER*/
+    #slides .inner {
+        height: 90.3vh;
+    }
+}
+
+
+@media screen and (min-width:500px){
+
+
+/*SECTION - QUALITES*/
+    .qualities {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+ /*slider-scroll*/
+    .qualities-list{
+        padding: 35px 80px 50px 80px;
+        overflow-x: hidden;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        max-width: 60em;
+        margin: auto;
+       
+    }
+    
+    .qualities-list__el{
+        width: 15em;
+        margin: 21px;
+    }
+
+/*SECTION - ABOUT US*/
+
+    .aboutUs-list{
+        display: flex;
+    }
+    .picture-aboutUs {
+     
+         width: 90em;    
+    }
+   
+    .aboutUs-list__el {
+        height: auto;
+        width: 90em;
+    }
+
+
+/*SECTION - PORTFOLIO*/
+
+    .boX-list__el {
+        width: 18em;
+    }
+/*SECTION - CLIENTS*/
+    .clients-list__el {
+        width: 18em;
+    }
+
+
+
+
+
+
+  /*FOOTER*/
+ 
+
+  .logo-section{
+    width: 300px;
+  }
+  .footer__section--credit{
+    flex-direction: row;
+  }
+  .links-credit{
+    display: flex;
+  }
+  .up-page-link{
+    bottom: 80px;
+  }
+
+  
+
+}
+
+
+@media screen and (min-width:600px){
+    .text-disposition .title-center{
+        
+        text-align: left;
+        
+        
+    }
+    .text-disposition .title, .text-disposition .title2{
+        margin-left: 21px;
+    }
+
+    .text-disposition {
+        width: 523px;
+        margin: auto;
+    }
+
+
+
+ 
+
+
+/*FOOTER*/
+  
+    .logo-links-section,
+    .importantLinks-section,
+    .contactus-section {
+    padding: 20px 20px;
+
+    }   
+/*HEADER-SLIDER*/
+
+    .slide-content {
+        margin-right: 40%;
+    }
+    .slide-content h3 {
+        font-size: 2.9em;
+    }
+
+
+}
+
+
+@media screen and (min-width:769px){
+    /*SECTION - LABELS*/
+.labels{
+    padding: 40px;
+    display: flex;
+}
+
+
+/*FOOTER*/
+.footer{
+    flex-direction: row;
+}
+
+}
+
+@media screen and (max-width:1024px){
+
+
+
+    .menu--open li:last-child {
+        display: flex;
+        justify-content: center;
+        margin-top: 28px;
+        margin-left: 16px;
+    }
+
+    .square {
+        color: #ffffff;
+    }
+
+
+}
+
+
+
+@media screen and (min-width:1025px){
+
+
+ 
+
+
+    /*CONCTACT*/
+    .contact{
+        display: flex;
+        justify-content: center;
+    }
+    .form-horizontal {
+        width: 320px;
+    }
+    .text-disposition {
+        margin: 0;
+    }
+    
+    /* SECTION - CLIENT*/
+    .clients-list{ 
+        width: 53em;
+    }
+
+
+    /*HEADER-SLIDER*/
+
+    .slide-content {
+        margin-right: 46%;
+        padding: 60px;
+        align-self: flex-end;
+    }
+
+    #slides .slide_1 {
+        background-image: url("assets/images/jpg/B-bureau@2x.jpg");
+    }
+
+     /*BAR-NAVIGATION*/
+
+     .logo {
+        margin-left: 60px;
+    }
+
+     .barnavigation {
+        justify-content: center;
+     }
+
+     .contenaire__nav {
+        margin: 0;
+     }
+
+     .menu-icon {
+        height: 0;
+        width: 0;
+      }
+    
+
+     .menu a{
+        color: #0F1B38;
+        font-weight: 300;
+  
+      }
+      .menu {
+        position: initial;
+        background: rgb(255, 255, 255);
+        opacity: 1;
+        transition: none;
+        will-change: transform, opacity;
+        transform: translateX(0%);
+    }
+        
+    
+    
+      .menu:before{
+        position: initial;
+      }
+      .menu ul {
+        display: flex;
+        justify-content: flex-start;
+      }
+    
+      .menu li{
+        margin: 30px 20px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+
+    /*SECTION - ABOUT US*/
+    .aboutUs-text{
+        margin: auto;
+        /* margin-top: 20%; */
+        padding: 91px 0;
+        margin-bottom: auto;
+        height: auto;
+        width: 73%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutUs-list__el {
+        width: 90em;
+        height: auto;
+    }
+
+
+
+      
+
+}
+
+@media screen and (min-width:1300px){ 
+    .aboutUs-text {
+        width: 50%;
+    }
+}           
+
+
+
+@media screen and (min-width:1400px){
+
+    .slide-content {
+        margin-right: 59%;
+}
+}

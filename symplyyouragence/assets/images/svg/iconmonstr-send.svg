@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <symbol height="24" id="svg_1" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+   <path d="m24,0l-6,22l-8.129,-7.239l7.802,-8.234l-10.458,7.227l-7.215,-1.754l24,-12zm-15,16.668l0,7.332l3.258,-4.431l-3.258,-2.901z"/>
+  </symbol>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <use fill="#ffffff" id="svg_2" transform="matrix(19.8354 0 0 19.8354 1.97531 1.97531)" x="4.234855" xlink:href="#svg_1" y="0.050415"/>
+  <g id="svg_3"/>
+ </g>
+</svg>
