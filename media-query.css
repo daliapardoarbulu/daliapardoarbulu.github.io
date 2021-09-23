@@ -12,7 +12,10 @@
 
 @media screen and (min-width:500px) {
 
- 
+    .daliaportrait {
+        width: 70%;
+        margin: 0 16%;
+    }
   
     
 
@@ -307,6 +310,31 @@
         align-items: center;
     }
 
+
+    /*PORTFOLIO_Gecki*/
+
+    .video__imagecontent img{
+        margin-top: 16vh;
+        width: 60%;
+    }
+
+    .videogecki{
+        margin-top: 25vh;
+        width: 60%;
+    }
+
+    .contenaire__video{
+        margin-top: -40px;
+    }
+
+    .video__imagecontent video{
+        width: 60%;
+    }
+
+
+
+
+
 }
 
 
@@ -494,7 +522,13 @@
         align-items: stretch;
     }
 
+
+
+
 }
+
+
+
 
 @media screen and (min-width:1400px) {
 
