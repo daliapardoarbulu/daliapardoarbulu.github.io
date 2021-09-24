@@ -858,8 +858,6 @@ footer .contenair_social .social {
     margin-top: 50px;
     height: auto;
     box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
-   
-
 }
 
 
@@ -868,6 +866,11 @@ footer .contenair_social .social {
 
     margin: 0 6%;
     padding-top: 30px;
+}
+
+.affiche-text{
+    margin: 0 6%;
+    padding-top:170px;
 }
 
 .video__description-text h2{
@@ -906,3 +909,5 @@ footer .contenair_social .social {
 .video__imagecontent video{
     width: 92%;
 }
+
+
