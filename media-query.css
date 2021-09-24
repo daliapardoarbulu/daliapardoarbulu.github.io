@@ -686,6 +686,12 @@
 
 
 @media screen and (min-width:1912px) {
+    
+    .affiche-text {
+        margin: 0 10%;
+        padding-top: 119px;
+    }
+    
     .logo {
         margin-left: 182px;
     }
