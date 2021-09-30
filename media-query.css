@@ -603,7 +603,7 @@
         align-content: space-between;
         justify-items: end;
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column;
         margin-left: 0;
     }
 
@@ -714,7 +714,7 @@
 
     .apropos_fond:before {
         left: 296px;
-        top: 191px;
+        top: 180px;
         height: 694px;
         width: 520px;
         background-color: #fbfafa;
