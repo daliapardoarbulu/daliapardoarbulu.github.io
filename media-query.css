@@ -135,7 +135,7 @@
 @media screen and (min-width:800px) {
 
     .btn_elements {
-        flex-direction: row-reverse;
+        flex-direction: unset;
     }
 
 
@@ -598,14 +598,7 @@
         margin-left: 0;
     }
 
-    .btn_elements {
-        justify-content: unset;
-        align-content: space-between;
-        justify-items: end;
-        display: flex;
-        flex-direction: column;
-        margin-left: 0;
-    }
+  
 
 
     .contacteznous_fond {
