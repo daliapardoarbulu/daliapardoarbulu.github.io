@@ -786,7 +786,6 @@ header .contenair_social .social {
     display: -webkit-flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    justify-content: space-evenly;
     align-self: stretch;
 }
 
