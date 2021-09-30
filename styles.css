@@ -511,8 +511,8 @@ header .contenair_social .social {
 .apropos_fond:before {
     background: white;
     content: "";
-    height: 30vh;
-    width: 30vh;
+    height: 0;
+    width: 0;
     display: block;
     z-index: -1;
     position: absolute;
