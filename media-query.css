@@ -544,10 +544,10 @@
 
 
     .apropos_fond:before {
-        left: 630px;
-        top: 130px;
-        height: 810px;
-        width: 750px;
+       left: 680px;
+       top: 191px;
+       height: 689px;
+       width: 601px;
 
     }
 
@@ -637,9 +637,9 @@
 
     .daliaportrait {
         margin-top: 0;
-        width: 420px;
-        height: 566px;
-        padding-top: 9%;
+        width: 440px;
+        height: auto;
+        padding: 0;
 
     }
 
