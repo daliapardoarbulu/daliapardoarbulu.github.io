@@ -20,8 +20,8 @@
     
 
     .apropos_description {
-        margin-left: 16vw;
-        margin-right: 16vw;
+        margin-left: 11vw;
+        margin-right: 0vw;
     }
 }
 
@@ -75,8 +75,8 @@
     }
 
     .apropos_description {
-        margin-left: 17vw;
-        margin-right: 17vw;
+        margin-left: 11vw;
+        margin-right: 6vw;
         margin-top: 50px;
 
     }
@@ -350,8 +350,8 @@
 
 @media screen and (min-width: 500px) and (max-width: 699px) {
     .contacteznous_fond {
-        margin-left: 17vw;
-        margin-right: 16vw;
+        margin-left: 10vw;
+        margin-right: 1.5vw;
     }
 
 
@@ -359,8 +359,8 @@
 
 @media screen and (min-width: 700px) and (max-width: 799px) {
     .contacteznous_fond {
-        margin-left: 17vw;
-        margin-right: 17vw;
+        margin-left: 11vw;
+        margin-right: 8vw;
     }
 }
 
