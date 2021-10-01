@@ -461,6 +461,7 @@ header .contenair_social .social {
     padding-top: 15px;
     display: inline-flex;
     margin: 0 50%;
+    cursor: pointer;
 }
 
 .scroll_image:before {
