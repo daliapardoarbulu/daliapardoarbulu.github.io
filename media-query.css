@@ -545,7 +545,7 @@
 
     .apropos_fond:before {
          left: 45vw;
-         top: 223px;
+         top: 195px;
          height: 629px;
          width: 541px;
 
@@ -709,6 +709,7 @@
         left: 296px;
         height: 694px;
         width: 520px;
+        top: 165px;
         background-color: #fbfafa;
     }
 }
