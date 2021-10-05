@@ -451,17 +451,22 @@ header .contenair_social .social {
     margin-top: inherit;
 }
 
-
-.scroll_image {
-    text-align: center;
+.scroll_image a {
+    color: #13243E;
     font-weight: 700;
     font-size: 1.3rem;
-    color: #13243E;
-    margin-bottom: 80px;
-    padding-top: 15px;
-    display: inline-flex;
-    margin: 0 50%;
-    cursor: pointer;
+    height: 20px;
+    width: 34px;
+    margin: 0;
+}
+
+
+
+
+
+.scroll_image {
+    margin-left: 50%;
+    margin-right: 50%;
 }
 
 .scroll_image:before {
