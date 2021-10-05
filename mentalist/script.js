@@ -15,7 +15,7 @@ let prenom = prompt("Dites moi votre prénom, ça va m'aider à vous visualiser.
 console.log(" ça veut dire que "+ '"' +prenom+ '"' + " n'a pas hésité à donner son prénom");
 
 //si l'utilisateur n'écrit rien, on repose la question
-if (prenom.toLowerCase() === "") {
+if (prenom === "") {
     prenom = prompt("Alleeez juste un petit nom, je vais pas le donner au FBI promis...");
 
 }
