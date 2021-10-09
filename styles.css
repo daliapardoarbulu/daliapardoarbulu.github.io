@@ -140,7 +140,7 @@ p {
     -ms-align-items: center;
 }
 
-.menu {
+.menu--close {
     position: fixed;
     transform: translateX(-100%);
     right: -100%;
@@ -151,7 +151,7 @@ p {
     will-change: transform, opacity;
 }
 
-.menu:before {
+.menu--close:before {
     content: "";
     position: fixed;
     height: 100%;
@@ -164,13 +164,13 @@ p {
     opacity: 0.5;
 }
 
-div .menu ul li a {
+div .menu--close ul li a {
     margin-top: 90px;
     text-decoration: none;
     font-size: 2rem;
 }
 
-div .menu ul li {
+div .menu--close ul li {
     list-style: none;
 }
 
@@ -242,6 +242,8 @@ a {
     font-family: 'Quicksand';
     font-weight: normal;
     list-style: none;
+    height: fit-content;
+    width: fit-content;
 }
 
 .menu-center {
