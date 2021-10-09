@@ -404,7 +404,9 @@ a {
     justify-content: center;
     position: relative;
     margin-bottom: 40px;
-    margin-top: 6vh;
+    padding-top: 50px;
+    margin-top: 0;
+    top: 34px;
     background-color: white;
     padding-bottom: 10px;
     align-items: stretch;
