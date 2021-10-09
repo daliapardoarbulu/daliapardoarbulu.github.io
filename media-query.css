@@ -274,7 +274,9 @@
         background-color: transparent;
         justify-content: space-around;
         padding-bottom: 70px;
-        margin-top: -6vh;
+        margin-top: -60px;
+        padding-top: 0;
+        top: 0;
     }
 
 
