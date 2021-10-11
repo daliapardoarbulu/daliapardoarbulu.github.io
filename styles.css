@@ -279,7 +279,9 @@ a {
 .menu--open .ligne1,
 .menu--open .ligne2 {
     border: #ffffff solid 1px;
-    height: 5px;
+    height: 7px;
+    width: 36px;
+    right: 32px;
 }
 
 
