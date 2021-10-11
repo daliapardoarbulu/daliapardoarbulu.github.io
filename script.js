@@ -20,8 +20,14 @@ const navLink = document.querySelectorAll('a.link-close');
 navLink.forEach((element) => {
   
   element.addEventListener('click', function(){
-     menu.classList.toggle('menu--open');
-     trigger.classList.toggle('menu--open');
+    if(window.innerWidth >= 1000){
+      
+    }else{  
+      menu.classList.toggle('menu--open');
+        trigger.classList.toggle('menu--open');
+        document.body.classList.toggle("stop-scrolling");
+        
+    }
  });
 });
 
