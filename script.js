@@ -15,3 +15,14 @@ menuLinkCross.forEach((element) => {
      trigger.classList.toggle('menu--open');
  });
 });
+
+const navLink = document.querySelectorAll('a.link-close');
+navLink.forEach((element) => {
+  
+  element.addEventListener('click', function(){
+     menu.classList.toggle('menu--open');
+     trigger.classList.toggle('menu--open');
+ });
+});
+
+console.log(navLink);
