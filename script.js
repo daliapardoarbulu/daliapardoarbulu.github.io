@@ -4,6 +4,7 @@ const trigger = document.querySelector('.trigger');
 
 trigger.addEventListener('click', function(){
   menu.classList.toggle('menu--open');
+  document.body.classList.toggle("stop-scrolling");
 });
 
 
