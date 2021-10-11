@@ -198,18 +198,20 @@
         right: -37px;
         position: absolute;
         background-color: white;
-        height: 291px;
+        height: 207px;
         width: 60px;
+        padding: 0;
+        top: 74px;
     }
 
 
 
 
-
+/* 
     .contacteznous_fond:before {
         -webkit-transform: skew(0, 6deg);
         transform: skew(0, 6deg);
-    }
+    } */
 
     .banniere_description {
         height: 250px;
@@ -345,7 +347,7 @@
 
     .video__imagecontent img{
         margin-top: 3vh;
-        width: 570px;
+        width: 50%;
     }
 
     .affiche-text{
@@ -362,7 +364,7 @@
     }
 
     .video__imagecontent video{
-        width: 572px;
+        width: 50%;
     }
 
 
@@ -374,8 +376,8 @@
 
 @media screen and (min-width: 0px) and (max-width: 499px) {
     .contacteznous_fond {
-        margin-left: 3vw;
-        margin-right: -4vw;
+        padding-left: 3vw;
+        padding-right: -4vw;
     }
 
 
@@ -395,8 +397,8 @@
 
 @media screen and (min-width: 500px) and (max-width: 699px) {
     .contacteznous_fond {
-        margin-left: 10vw;
-        margin-right: 1.5vw;
+        padding-left: 10vw;
+        padding-right: 1.5vw;
     }
     section#apropos {
         width: 75%;
@@ -411,8 +413,8 @@
 
 @media screen and (min-width: 700px) and (max-width: 799px) {
     .contacteznous_fond {
-        margin-left: 11vw;
-        margin-right: 8vw;
+        padding-left: 11vw;
+        padding-right: 8vw;
     }
 }
 
@@ -466,8 +468,10 @@
 
 
     header .contenair_social .social {
-        margin-top: 312px;
         right: -5px;
+        height: 226px;
+        top: 73px;
+        width: 60px;
     }
 
 
@@ -483,11 +487,11 @@
 
 
 
-
+/* 
     .contacteznous_fond:before {
         -webkit-transform: skew(0, 5deg);
         transform: skew(0, 5deg);
-    }
+    } */
 
     footer ul li img {
         height: 40px;
@@ -617,10 +621,9 @@
 
 
     header .contenair_social .social {
-        margin-top: 465px;
         right: 0px;
-        height: 365px;
-        padding-bottom: 90px;
+        height: 296px;
+        top: 182px;
     }
 
 
