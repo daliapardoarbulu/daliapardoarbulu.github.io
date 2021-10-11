@@ -131,9 +131,7 @@
     .contacteznous_elements .btn_elements{
         margin-left: auto;
    }
-   /* .contacteznous_fond .btn:first-child {
-       margin-left: 20px;
-   } */
+ 
 
 
    header.container.fond {
@@ -148,6 +146,10 @@
 
 
 @media screen and (min-width:800px) {
+
+    .contacteznous_fond .btn:first-child {
+        margin-right: 30px;
+    }
 
 
     header.container.fond {
@@ -342,12 +344,16 @@
     /*PORTFOLIO_Gecki*/
 
     .video__imagecontent img{
-        margin-top: 16vh;
-        width: 60%;
+        margin-top: 3vh;
+        width: 570px;
+    }
+
+    .affiche-text{
+        padding-top: 0vw;
     }
 
     .videogecki{
-        margin-top: 25vh;
+        margin-top: 3vh;
         width: 60%;
     }
 
@@ -356,7 +362,7 @@
     }
 
     .video__imagecontent video{
-        width: 60%;
+        width: 572px;
     }
 
 
@@ -440,12 +446,13 @@
     .stop-scrolling {
         height: 100%;
         overflow: hidden;
-    }
+}
 }
 
 
-
 @media screen and (min-width:1000px) {
+
+  
 
 
     .contacteznous_elements{
@@ -563,9 +570,6 @@
         border-radius: 10px;
     }
 
-    .menu-color{
-        color: #303757;
-    }
 
     .menu-center li a {
         font-weight: lighter;
@@ -647,9 +651,7 @@
     }
 
 
-    /* .contacteznous_fond .btn:first-child {
-        margin-left: 20px;
-    } */
+    
 
     .contacteznous_fond .btn:last-child {
         margin-left: 0;
@@ -769,4 +771,6 @@
         top: 165px;
         background-color: #fbfafa;
     }
+
+   
 }
