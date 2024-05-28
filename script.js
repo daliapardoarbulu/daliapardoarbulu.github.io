@@ -31,4 +31,4 @@ navLink.forEach((element) => {
  });
 });
 
-console.log(navLink);
+// console.log(navLink);
